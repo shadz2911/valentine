@@ -1,0 +1,48 @@
+ body {
+            background-color: pink;
+            text-align: center;
+            font-family: Pacifico, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 90vh;
+            margin: 0;
+        }
+        
+h1 {
+            color: red;
+            font-size: 48px;
+        }
+
+h3 {
+            color: black;
+            font-size: 20px;
+        }
+        
+#yesBtn {
+            background-color: rgb(62, 198, 62);
+            color:white;
+            padding: 15px 30px;
+            font-family: Quicksand;
+            font-size: 25px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        
+#noBtn {
+            background-color: rgb(156, 13, 13);
+            color:white;
+            padding: 15px 30px;
+            font-family: Quicksand;
+            font-size: 25px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+#shawy1img {
+    max-width: 450px; 
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0; 
+}
