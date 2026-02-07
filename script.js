@@ -1,8 +1,7 @@
 const yesBtn = document.getElementById('yesBtn');
 const noBtn = document.getElementById('noBtn');
 const valentineImg = document.getElementById('shawy1img');
-const message = document.getElementById('message'); 
-}
+const message = document.getElementById('message');
 
 let noCount = 0;
 
@@ -39,3 +38,4 @@ yesBtn.addEventListener('click', function() {
     message.style.display = 'inline-block';
 
 });
+
