@@ -2,10 +2,6 @@ const yesBtn = document.getElementById('yesBtn');
 const noBtn = document.getElementById('noBtn');
 const valentineImg = document.getElementById('shawy1img');
 const message = document.getElementById('message'); 
-const password = prompt("Enter password:");
-if (password !== "shaliya123") {
-    document.body.innerHTML = "Wrong password!";
-    throw new Error("Access denied");
 }
 
 let noCount = 0;
@@ -41,4 +37,5 @@ yesBtn.addEventListener('click', function() {
     message.style.padding = '20px';
     message.style.borderRadius = '15px';
     message.style.display = 'inline-block';
+
 });
